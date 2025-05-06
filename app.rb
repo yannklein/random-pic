@@ -37,17 +37,15 @@ cars = {
 }
 
 get '/:keyword' do
-  # url = "https://loremflickr.com/json/g/320/240/#{params[:keyword].downcase}/all"
-  # serialized_data = URI.parse(url).read
-  # data = JSON.parse(serialized_data)
-  # redirect data["rawFileUrl"]
+  keywords = params[:keyword].downcase.split(',')
 
-  keyword = params[:keyword].downcase
-  matching_car = cars.keys.find { |car| car.downcase.include?(keyword) }
+  matching_car = cars.keys.find do |car|
+    keywords.all? { |word| car.downcase.include?(word.strip) }
+  end
+
   if matching_car
     redirect cars[matching_car]
   else
-    # Select a random URL from the cars hash
     redirect cars.values.sample
   end
 end
