@@ -5,6 +5,7 @@ require 'json'
 
 # rubocop:disable Style/StringLiterals
 cars = {
+  "Ferrari 308" => "https://live.staticflickr.com/6106/6256100889_4d1c317cb8_n.jpg",
   "SEAT Ibiza" => "https://live.staticflickr.com/4850/32028447147_06bded235b_n.jpg",
   "Tesla Model Y" => "https://live.staticflickr.com/65535/50117086542_d9dbb708b5_m.jpg",
   "Toyota RAV4" => "https://live.staticflickr.com/7806/47335082881_0b6c124bfe_n.jpg",
