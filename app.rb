@@ -5,6 +5,7 @@ require 'json'
 
 # rubocop:disable Style/StringLiterals
 cars = {
+  "SEAT Ibiza" => "https://live.staticflickr.com/4850/32028447147_06bded235b_n.jpg",
   "Tesla Model Y" => "https://live.staticflickr.com/65535/50117086542_d9dbb708b5_m.jpg",
   "Toyota RAV4" => "https://live.staticflickr.com/7806/47335082881_0b6c124bfe_n.jpg",
   "Honda CR-V" => "https://live.staticflickr.com/2736/4406111760_472be01a66_m.jpg",
@@ -25,7 +26,7 @@ cars = {
   "Volkswagen Jetta" => "https://live.staticflickr.com/8021/7304339366_07d5461f46_n.jpg",
   "Mazda CX-5" => "https://live.staticflickr.com/8152/7197499718_a5803774bf_n.jpg",
   "Suzuki Swift" => "https://live.staticflickr.com/65535/51033459876_a2ce7a039f_m.jpg",
-  "Suzuki Alto": "https://live.staticflickr.com/7568/15654184841_4319305a0b_w.jpg",
+  "Suzuki Alto" => "https://live.staticflickr.com/7568/15654184841_4319305a0b_w.jpg",
   "Honda HR-V" => "https://live.staticflickr.com/1581/24752498866_89173ac7dc_n.jpg",
   "Toyota Highlander" => "https://live.staticflickr.com/1636/25692209362_aabee42b8a_m.jpg",
   "Ford Ranger" => "https://live.staticflickr.com/5538/30348003612_c30f87b847_n.jpg",
